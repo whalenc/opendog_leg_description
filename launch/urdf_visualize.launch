@@ -1,7 +1,7 @@
 <launch>
 
 
-  <arg name="model" default="$(find lafayette_opendog)/urdf/openDog_full.urdf"/>
+  <arg name="model" default="$(find opendog_leg_description)/urdf/openDog_full.urdf"/>
 
 
   <param name="robot_description" command="cat $(arg model)"  />
