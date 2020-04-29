@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(lafayette_opendog)
+project(opendog_leg_description)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -196,7 +196,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_lafayette_opendog.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test testopendog_leg_description.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
